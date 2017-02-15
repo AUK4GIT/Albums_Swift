@@ -15,6 +15,17 @@
 		AE291ABA1E537E82009E5017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE291AB81E537E82009E5017 /* LaunchScreen.storyboard */; };
 		AE291AC51E537E83009E5017 /* Albums_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291AC41E537E83009E5017 /* Albums_SwiftTests.swift */; };
 		AE291AD01E537E83009E5017 /* Albums_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291ACF1E537E83009E5017 /* Albums_SwiftUITests.swift */; };
+		AE291AE51E53822A009E5017 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291AE41E53822A009E5017 /* Helper.swift */; };
+		AE291AF31E5382B4009E5017 /* AlbumsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291AF21E5382B4009E5017 /* AlbumsListViewController.swift */; };
+		AE291AF51E5382CF009E5017 /* ThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291AF41E5382CF009E5017 /* ThumbnailsViewController.swift */; };
+		AE291AF71E5382E4009E5017 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291AF61E5382E4009E5017 /* PhotoViewerViewController.swift */; };
+		AE291AF91E538304009E5017 /* ThumnailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291AF81E538304009E5017 /* ThumnailViewCell.swift */; };
+		AE291B0C1E54010B009E5017 /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291B061E54010B009E5017 /* Users+CoreDataClass.swift */; };
+		AE291B0D1E54010B009E5017 /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291B071E54010B009E5017 /* Users+CoreDataProperties.swift */; };
+		AE291B0E1E54010B009E5017 /* Photos+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291B081E54010B009E5017 /* Photos+CoreDataClass.swift */; };
+		AE291B0F1E54010B009E5017 /* Photos+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291B091E54010B009E5017 /* Photos+CoreDataProperties.swift */; };
+		AE291B101E54010B009E5017 /* Albums+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291B0A1E54010B009E5017 /* Albums+CoreDataClass.swift */; };
+		AE291B111E54010B009E5017 /* Albums+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291B0B1E54010B009E5017 /* Albums+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		AE291ACB1E537E83009E5017 /* Albums_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Albums_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE291ACF1E537E83009E5017 /* Albums_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums_SwiftUITests.swift; sourceTree = "<group>"; };
 		AE291AD11E537E83009E5017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE291AE41E53822A009E5017 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AE291AF21E5382B4009E5017 /* AlbumsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumsListViewController.swift; path = AlbumsVC/AlbumsListViewController.swift; sourceTree = "<group>"; };
+		AE291AF41E5382CF009E5017 /* ThumbnailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThumbnailsViewController.swift; path = ThumbnailsVC/ThumbnailsViewController.swift; sourceTree = "<group>"; };
+		AE291AF61E5382E4009E5017 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewerViewController.swift; path = PhotoViewerVC/PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		AE291AF81E538304009E5017 /* ThumnailViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThumnailViewCell.swift; path = views/ThumnailViewCell.swift; sourceTree = "<group>"; };
+		AE291B061E54010B009E5017 /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Users+CoreDataClass.swift"; path = "Models/Users+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AE291B071E54010B009E5017 /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Users+CoreDataProperties.swift"; path = "Models/Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AE291B081E54010B009E5017 /* Photos+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Photos+CoreDataClass.swift"; path = "Models/Photos+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AE291B091E54010B009E5017 /* Photos+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Photos+CoreDataProperties.swift"; path = "Models/Photos+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AE291B0A1E54010B009E5017 /* Albums+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Albums+CoreDataClass.swift"; path = "Models/Albums+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AE291B0B1E54010B009E5017 /* Albums+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Albums+CoreDataProperties.swift"; path = "Models/Albums+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,10 @@
 		AE291AAB1E537E82009E5017 /* Albums_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				AE291AE01E538106009E5017 /* CustomAnimations */,
+				AE291ADF1E5380F7009E5017 /* Models */,
+				AE291ADE1E5380EF009E5017 /* Controllers */,
+				AE291ADD1E5380E7009E5017 /* Views */,
 				AE291AAC1E537E82009E5017 /* AppDelegate.swift */,
 				AE291AAE1E537E82009E5017 /* ViewController.swift */,
 				AE291AB01E537E82009E5017 /* Main.storyboard */,
@@ -106,6 +132,7 @@
 				AE291AB81E537E82009E5017 /* LaunchScreen.storyboard */,
 				AE291ABB1E537E82009E5017 /* Info.plist */,
 				AE291AB31E537E82009E5017 /* Albums_Swift.xcdatamodeld */,
+				AE291AE41E53822A009E5017 /* Helper.swift */,
 			);
 			path = Albums_Swift;
 			sourceTree = "<group>";
@@ -126,6 +153,68 @@
 				AE291AD11E537E83009E5017 /* Info.plist */,
 			);
 			path = Albums_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		AE291ADD1E5380E7009E5017 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE291AF81E538304009E5017 /* ThumnailViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AE291ADE1E5380EF009E5017 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE291AE31E538203009E5017 /* AlbumsVC */,
+				AE291AE21E5381F5009E5017 /* ThumbNailsVC */,
+				AE291AE11E5381EA009E5017 /* PhotoViewerVC */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AE291ADF1E5380F7009E5017 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE291B061E54010B009E5017 /* Users+CoreDataClass.swift */,
+				AE291B071E54010B009E5017 /* Users+CoreDataProperties.swift */,
+				AE291B081E54010B009E5017 /* Photos+CoreDataClass.swift */,
+				AE291B091E54010B009E5017 /* Photos+CoreDataProperties.swift */,
+				AE291B0A1E54010B009E5017 /* Albums+CoreDataClass.swift */,
+				AE291B0B1E54010B009E5017 /* Albums+CoreDataProperties.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AE291AE01E538106009E5017 /* CustomAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomAnimations;
+			sourceTree = "<group>";
+		};
+		AE291AE11E5381EA009E5017 /* PhotoViewerVC */ = {
+			isa = PBXGroup;
+			children = (
+				AE291AF61E5382E4009E5017 /* PhotoViewerViewController.swift */,
+			);
+			name = PhotoViewerVC;
+			sourceTree = "<group>";
+		};
+		AE291AE21E5381F5009E5017 /* ThumbNailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				AE291AF41E5382CF009E5017 /* ThumbnailsViewController.swift */,
+			);
+			name = ThumbNailsVC;
+			sourceTree = "<group>";
+		};
+		AE291AE31E538203009E5017 /* AlbumsVC */ = {
+			isa = PBXGroup;
+			children = (
+				AE291AF21E5382B4009E5017 /* AlbumsListViewController.swift */,
+			);
+			name = AlbumsVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +352,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE291AAF1E537E82009E5017 /* ViewController.swift in Sources */,
+				AE291AF91E538304009E5017 /* ThumnailViewCell.swift in Sources */,
+				AE291B0F1E54010B009E5017 /* Photos+CoreDataProperties.swift in Sources */,
+				AE291B111E54010B009E5017 /* Albums+CoreDataProperties.swift in Sources */,
+				AE291AF51E5382CF009E5017 /* ThumbnailsViewController.swift in Sources */,
+				AE291B101E54010B009E5017 /* Albums+CoreDataClass.swift in Sources */,
+				AE291AF71E5382E4009E5017 /* PhotoViewerViewController.swift in Sources */,
+				AE291B0D1E54010B009E5017 /* Users+CoreDataProperties.swift in Sources */,
 				AE291AB51E537E82009E5017 /* Albums_Swift.xcdatamodeld in Sources */,
+				AE291B0E1E54010B009E5017 /* Photos+CoreDataClass.swift in Sources */,
 				AE291AAD1E537E82009E5017 /* AppDelegate.swift in Sources */,
+				AE291AF31E5382B4009E5017 /* AlbumsListViewController.swift in Sources */,
+				AE291AE51E53822A009E5017 /* Helper.swift in Sources */,
+				AE291B0C1E54010B009E5017 /* Users+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
