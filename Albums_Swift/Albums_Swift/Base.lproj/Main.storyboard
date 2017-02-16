@@ -12,7 +12,7 @@
         <!--Album-->
         <scene sceneID="64F-xN-qLL">
             <objects>
-                <tableViewController id="hIs-Ha-u3o" customClass="AlbumListsViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="AlbumsListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hIs-Ha-u3o" customClass="AlbumsListViewController" customModule="Albums_Swift" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="z68-Zl-Eng">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,13 +58,13 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZv-xw-HDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="753.5" y="69.5"/>
+            <point key="canvasLocation" x="518" y="69"/>
         </scene>
         <!--Thumbnails-->
         <scene sceneID="xxt-aJ-N3M">
             <objects>
-                <collectionViewController storyboardIdentifier="ThumbnailsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Z40-Xx-kpI" customClass="ThumbnailsVC" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="3KS-l0-v3u">
+                <collectionViewController storyboardIdentifier="ThumbnailsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Z40-Xx-kpI" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="3KS-l0-v3u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

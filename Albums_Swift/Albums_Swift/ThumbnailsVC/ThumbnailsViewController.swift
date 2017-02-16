@@ -6,4 +6,8 @@
 //  Copyright © 2017 Uday Kiran Ailapaka. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ThumbnailsViewController: UICollectionViewController {
+    
+}

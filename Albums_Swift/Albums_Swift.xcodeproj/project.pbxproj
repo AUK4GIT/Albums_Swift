@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AE291AAD1E537E82009E5017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291AAC1E537E82009E5017 /* AppDelegate.swift */; };
-		AE291AAF1E537E82009E5017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE291AAE1E537E82009E5017 /* ViewController.swift */; };
 		AE291AB21E537E82009E5017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE291AB01E537E82009E5017 /* Main.storyboard */; };
 		AE291AB51E537E82009E5017 /* Albums_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE291AB31E537E82009E5017 /* Albums_Swift.xcdatamodeld */; };
 		AE291AB71E537E82009E5017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE291AB61E537E82009E5017 /* Assets.xcassets */; };
@@ -48,7 +47,6 @@
 /* Begin PBXFileReference section */
 		AE291AA91E537E82009E5017 /* Albums_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Albums_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE291AAC1E537E82009E5017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE291AAE1E537E82009E5017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE291AB11E537E82009E5017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE291AB41E537E82009E5017 /* Albums_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Albums_Swift.xcdatamodel; sourceTree = "<group>"; };
 		AE291AB61E537E82009E5017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				AE291ADE1E5380EF009E5017 /* Controllers */,
 				AE291ADD1E5380E7009E5017 /* Views */,
 				AE291AAC1E537E82009E5017 /* AppDelegate.swift */,
-				AE291AAE1E537E82009E5017 /* ViewController.swift */,
 				AE291AB01E537E82009E5017 /* Main.storyboard */,
 				AE291AB61E537E82009E5017 /* Assets.xcassets */,
 				AE291AB81E537E82009E5017 /* LaunchScreen.storyboard */,
@@ -351,7 +348,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE291AAF1E537E82009E5017 /* ViewController.swift in Sources */,
 				AE291AF91E538304009E5017 /* ThumnailViewCell.swift in Sources */,
 				AE291B0F1E54010B009E5017 /* Photos+CoreDataProperties.swift in Sources */,
 				AE291B111E54010B009E5017 /* Albums+CoreDataProperties.swift in Sources */,
@@ -609,6 +605,7 @@
 				AE291AD61E537E83009E5017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE291AD71E537E83009E5017 /* Build configuration list for PBXNativeTarget "Albums_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -617,6 +614,7 @@
 				AE291AD91E537E83009E5017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE291ADA1E537E83009E5017 /* Build configuration list for PBXNativeTarget "Albums_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -625,6 +623,7 @@
 				AE291ADC1E537E83009E5017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
